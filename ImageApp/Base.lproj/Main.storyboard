@@ -30,7 +30,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="SMl-JM-qzi" userLabel="cellImage">
-                                                    <rect key="frame" x="20" y="8" width="353" height="197"/>
+                                                    <rect key="frame" x="20" y="4" width="353" height="205"/>
                                                     <userDefinedRuntimeAttributes>
                                                         <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                             <integer key="value" value="16"/>
@@ -39,25 +39,25 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23 ноября 2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsW-9r-nkN" userLabel="cellDate">
-                                                    <rect key="frame" x="27.999999999999993" y="176.66666666666666" width="125.33333333333331" height="20.333333333333343"/>
+                                                    <rect key="frame" x="27.999999999999993" y="180.66666666666666" width="125.33333333333331" height="20.333333333333343"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" name="White"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0AE-Oy-3Fo" userLabel="cellButton">
-                                                    <rect key="frame" x="319" y="8" width="54" height="40"/>
+                                                    <rect key="frame" x="319" y="4" width="54" height="40"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain" image="likeButtonOn" title=""/>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="cellGradient" translatesAutoresizingMaskIntoConstraints="NO" id="yuj-1I-ejk">
-                                                    <rect key="frame" x="20" y="175" width="353" height="30"/>
+                                                    <rect key="frame" x="20" y="179" width="353" height="30"/>
                                                 </imageView>
                                             </subviews>
                                             <color key="backgroundColor" name="Black"/>
                                             <constraints>
-                                                <constraint firstItem="SMl-JM-qzi" firstAttribute="top" secondItem="XXp-DK-rHH" secondAttribute="top" constant="8" id="97N-7L-hX9"/>
+                                                <constraint firstItem="SMl-JM-qzi" firstAttribute="top" secondItem="XXp-DK-rHH" secondAttribute="top" constant="4" id="97N-7L-hX9"/>
                                                 <constraint firstItem="0AE-Oy-3Fo" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SMl-JM-qzi" secondAttribute="leading" symbolic="YES" id="IKn-tl-QKs"/>
-                                                <constraint firstAttribute="bottom" secondItem="SMl-JM-qzi" secondAttribute="bottom" constant="8" id="Nus-to-kn5"/>
+                                                <constraint firstAttribute="bottom" secondItem="SMl-JM-qzi" secondAttribute="bottom" constant="4" id="Nus-to-kn5"/>
                                                 <constraint firstItem="SMl-JM-qzi" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="NsW-9r-nkN" secondAttribute="trailing" constant="-8" id="aId-XR-zFe"/>
                                                 <constraint firstItem="0AE-Oy-3Fo" firstAttribute="top" secondItem="SMl-JM-qzi" secondAttribute="top" id="cbB-Bw-7VU"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="SMl-JM-qzi" secondAttribute="trailing" id="ecw-E5-hTj"/>
