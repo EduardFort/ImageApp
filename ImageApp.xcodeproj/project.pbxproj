@@ -16,6 +16,8 @@
 		61837DA2292B6F4500583AF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61837DA0292B6F4500583AF1 /* LaunchScreen.storyboard */; };
 		61837DAB292B77B800583AF1 /* UI Color Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61837DAA292B77B800583AF1 /* UI Color Extension.swift */; };
 		61837DAE292BD1C400583AF1 /* ImagesListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61837DAD292BD1C400583AF1 /* ImagesListCell.swift */; };
+		61FDF9BA29461DC500F43A64 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDF9B929461DC500F43A64 /* ProfileViewController.swift */; };
+		61FDF9BC2946922F00F43A64 /* SingleImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61FDF9BB2946922F00F43A64 /* SingleImageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		61837DA3292B6F4500583AF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61837DAA292B77B800583AF1 /* UI Color Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UI Color Extension.swift"; sourceTree = "<group>"; };
 		61837DAD292BD1C400583AF1 /* ImagesListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesListCell.swift; sourceTree = "<group>"; };
+		61FDF9B929461DC500F43A64 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		61FDF9BB2946922F00F43A64 /* SingleImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 			children = (
 				61837DAD292BD1C400583AF1 /* ImagesListCell.swift */,
 				61837D96292B6F4400583AF1 /* ImagesListViewController.swift */,
+				61FDF9B929461DC500F43A64 /* ProfileViewController.swift */,
+				61FDF9BB2946922F00F43A64 /* SingleImageViewController.swift */,
 			);
 			path = ImagesList;
 			sourceTree = "<group>";
@@ -175,7 +181,9 @@
 				61837DAE292BD1C400583AF1 /* ImagesListCell.swift in Sources */,
 				61837D9D292B6F4400583AF1 /* ImageApp.xcdatamodeld in Sources */,
 				61837D93292B6F4400583AF1 /* AppDelegate.swift in Sources */,
+				61FDF9BA29461DC500F43A64 /* ProfileViewController.swift in Sources */,
 				61837DAB292B77B800583AF1 /* UI Color Extension.swift in Sources */,
+				61FDF9BC2946922F00F43A64 /* SingleImageViewController.swift in Sources */,
 				61837D95292B6F4400583AF1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
